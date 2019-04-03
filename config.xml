@@ -4,8 +4,8 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
-    <name>Business Card</name>
-    <description>My second mobile app</description>
+    <name>Network App</name>
+    <description>My 3rd mobile app</description>
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		John Brown
 	</author>
