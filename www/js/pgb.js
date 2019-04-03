@@ -24,3 +24,5 @@ function userInfo(){
 	info = "My name is Karol"
 	
 }
+
+
