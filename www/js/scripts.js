@@ -13,16 +13,10 @@ function popup() {
     }
   };
   
+
 function speak() {
   speechSynthesis.speak(new SpeechSynthesisUtterance(textToRead));
 };
 function speakOnAndroid(){
-TTS.speak({
-  text: textToRead,
-  locale: 'en-US',
-  rate: 1
-}, function () {
-  console.log('Text succesfully spoken');
-}, function (reason) {
-  console.log(reason);
-});}
+  responsiveVoice.speak(textToRead,"Polish Female");
+};
